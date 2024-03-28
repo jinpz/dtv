@@ -2,7 +2,7 @@
 
 This is the official repo for
 
-[**Don't Trust: Verify -- Grounding LLM Quantitative Reasoning with Autoformalization**](https://openreview.net/forum?id=V5tdi14ple) (ICLR 2024)
+[**Don't Trust: Verify -- Grounding LLM Quantitative Reasoning with Autoformalization**](http://arxiv.org/abs/2403.18120) (ICLR 2024)
 
 by Jin Peng Zhou, Charles Staats, Wenda Li, Christian Szegedy, Kilian Q Weinberger, Yuhuai Wu 
 
