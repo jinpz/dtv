@@ -204,4 +204,4 @@ if __name__ == '__main__':
     seed = 47
     all_samples = prepare_formalize_data(input_data_path, max_num_prompt_combination, num_shots, permute_shot, seed)
     predictions = inference_with_prompts(all_samples, 'foramlize_proof_prompt', 'formalize_proof', prediction_save_path, '', 0.6, 0.95, 1024, 'Informal', 0)
-    formalize_postprocess(predictions, prediction_save_path, save_path)
+    formalize_postprocess(predictions, read_jsonl(prediction_save_path), save_path)
